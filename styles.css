@@ -1,3 +1,12 @@
+h1 {
+  margin-left: 20px;
+}
+h2 {
+  margin-left: 20px;
+  margin-top: -20px;
+  color: #556674;
+}
+
 body {
     margin: 0;
     font-family: 'Arial';
@@ -10,7 +19,7 @@ body {
   }
   
   .app {
-    background: #209cee;
+    background: #415b6d;
     padding: 30px;
     height: 100vh;
   }
@@ -33,6 +42,11 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  .todo:hover{
+    background-color: #7dadcf;
+    color: white
+  }
+
   
   .input{
     width: 100%;
